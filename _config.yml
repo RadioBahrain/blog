@@ -4,7 +4,7 @@ markdown: kramdown
 # URL of the Site
 url: 'https://radio.adhari.com/blog'
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl: blog
+baseurl: /blog
 
 # Title of the Site
 title: Radio Podcasts بودكاستات الإذاعة
@@ -35,10 +35,10 @@ dribbble_username: /
 spotify_username: /
 
 # Google Analytics
-google-analytics: 
+google-analytics: ''
 
 # Disqus
-disqus-shortname: 
+disqus-shortname: ''
 
 # Name of the Author
 author-name: Hasan
