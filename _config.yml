@@ -4,14 +4,14 @@ markdown: kramdown
 # URL of the Site
 url: 'https://radio.adhari.com/blog'
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl: /blog
+baseurl: '/blog'
 
 # Title of the Site
 title: Radio Podcasts بودكاستات الإذاعة
 # Description of the Site
 description: موروثنا كنزٌ لا يفنى
 # URL of Image of the Site
-site-image: /blog/assets/images/meta.jpg
+site-image: '/blog/assets/images/meta.jpg'
 # Keywords of the Site
 site-keywords: Site, Template, Theme
 # URL for the Image of custom Favicon
