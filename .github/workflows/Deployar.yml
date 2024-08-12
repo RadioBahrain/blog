@@ -38,21 +38,21 @@ jobs:
         with:
           ruby-version: '3.1' # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-          cache-version: 0 # Increment this number if you need to re-download cached gems
+          cache-version: 1 # Increment this number if you need to re-download cached gems
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
       - name: ضبط صفحاتك
         # You may pin to the exact commit or the version.
-        # uses: DavidS/jekyll-deploy@4e59472205269cce9739ac284303e74701fd7e9d
         # uses: DavidS/jekyll-deploy@latest
-        # with:
+        uses: DavidS/jekyll-deploy@4e59472205269cce9739ac284303e74701fd7e9d
+        with:
           # Set to "true" to only build, but not deploy. This is useful for PR testing
-          # build-only: false # optional, default is false
-      # - name: Build with Jekyll
+          build-only: false # optional, default is false
+      - name: Build with Jekyll
         # Outputs to the './_site' directory by default
-        # run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
-        run: bundle exec jekyll build 
+        # run: bundle exec jekyll build 
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
       - name: Upload artifact
