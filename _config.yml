@@ -9,7 +9,7 @@ baseurl: '/blog'
 # Title of the Site
 title: Radio Podcasts بودكاستات الإذاعة
 # Description of the Site
-description: موروثنا كنزٌ لا يفنى
+description: "موروثنا كنزٌ لا يفنى"
 # URL of Image of the Site
 site-image: '/blog/assets/images/meta.jpg'
 # Keywords of the Site
@@ -28,11 +28,11 @@ twitter_username: radiobahrain
 instagram_username: radiobahrain
 linkedin_username: radiobahrain
 github_username:  radiobahrain
-youtube_channel_id: @Radio-Bahrain
-reddit_username: /
-behance_username: /
-dribbble_username: /
-spotify_username: /
+youtube_channel_id: "Radio-Bahrain"
+# reddit_username: /
+# behance_username: /
+# dribbble_username: /
+# spotify_username: /
 
 # Google Analytics
 google-analytics: ''
